@@ -29,11 +29,11 @@ IDOR stands for Insecure Direct Object Reference and is a type of access control
 
 Since the story is about Santa and his elves and we need to find Santa's account we can assume he will be the `1` user_id. `1` representing a admin/root of the system. 
 
-![Santa's Account](/images/santa.PNG)
+![Santa's Account](images/santa.PNG)
 
 Next we need to find another user's account named McStocker. To do this we just need to traverse through the user_id's ranging from *1-20*. Once we do this we find the his user_id is `3`.
 
-![McStocker's Account](/images/mcstocker.PNG)
+![McStocker's Account](images/mcstocker.PNG)
 
 To find the person responible for tampering we follow the same process as before and find that the Grinch is user_id `9`.
 
@@ -41,4 +41,4 @@ To find the person responible for tampering we follow the same process as before
 
 To fix the Inventory Management System we must revert all of the Grinches `SKU Changes`. Once we do that we recieve the flag.
 
-![McSkidy's Flag](/images/mcskidy.PNG)
+![McSkidy's Flag](images/mcskidy.PNG)
