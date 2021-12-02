@@ -37,7 +37,7 @@ Next we need to find another user's account named McStocker. To do this we just 
 
 To find the person responible for tampering we follow the same process as before and find that the Grinch is user_id `9`.
 
-![The Grinch's Account](/images/grinch.PNG)
+![The Grinch's Account](images/grinch.PNG)
 
 To fix the Inventory Management System we must revert all of the Grinches `SKU Changes`. Once we do that we recieve the flag.
 
